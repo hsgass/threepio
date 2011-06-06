@@ -1,0 +1,21 @@
+
+module Threepio
+  module Config
+    def bing_app_id
+      ''
+    end
+
+    def bing_url
+      "http://api.microsofttranslator.com/V2/Http.svc/Translate?appId=#{bing_app_id}" 
+    end
+
+    def google_api_key
+      '' 
+    end
+
+    def google_url
+      "https://www.googleapis.com/language/translate/v2?key=#{google_api_key}"
+    end
+
+  end
+end
