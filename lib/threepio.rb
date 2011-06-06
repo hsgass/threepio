@@ -1,2 +1,2 @@
-require_relative 'threepio/translate'
-require_relative 'config'
+require_relative 'threepio/threepio'
+require_realtive 'threepio/engines'
